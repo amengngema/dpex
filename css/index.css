@@ -1,0 +1,224 @@
+/************************************
+=home
+************************************/
+#home-banner.overlay::before
+{
+    z-index: 1;
+    background: rgba(0, 0, 0, .4);     
+}
+#home-banner #home-slider .slick-dots
+{
+    z-index: 1;
+}
+#home-banner .banner-text h3 i
+{
+    position: relative;
+    top: -3px;
+    margin-left: 5px; 
+    margin-right: 5px; 
+    font-size: 14px;
+}
+/************************************
+=news
+************************************/
+#news
+{
+    color: #000;
+}
+#news #news-slider .slider-item
+{
+    padding: 15px;
+}
+#news #news-slider .slick-next::before,
+#news #news-slider .slick-prev::before
+{
+    color: #000;
+}
+/************************************
+=about
+************************************/
+#about
+{
+    text-align: center;
+}
+#about .btn-custom
+{
+    margin: 20px auto;
+}
+/************************************
+=mission
+************************************/
+#mission .box p
+{
+    font-size: 20px;
+}
+/************************************
+=vision
+************************************/
+#vision .box p
+{
+    font-size: 20px;
+}
+/************************************
+=tools
+************************************/
+#tools
+{
+    display: none;
+}
+/************************************
+=services
+************************************/
+#services article
+{
+    min-height: 180px;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;
+    background: #1c1e1c;
+    
+    transition: background .3s ease-in-out .1s;
+}
+#services article:hover
+{
+    background: #333;
+}
+#services article > span
+{
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: left;
+    line-height: 120px;
+    text-align: center;
+    font-size: 75px;
+    color: #d6151f;
+    
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+#services article:hover > span
+{
+    color: #fff;
+}
+#services article > span > i
+{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    
+    -webkit-transition: -webkit-transform .3s ease-in-out 0s;
+    transition: transform .3s ease-in-out 0s;
+}
+#services article:hover > span > i
+{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#services article .description
+{
+    padding: 15px;
+    overflow: hidden;
+    color: #fff;
+}
+#services article .description h3
+{
+    margin-top: 0;
+}
+#services article .description a,
+#services article .description a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #d6151f;
+}
+#services a.btn-custom
+{
+    margin: 20px auto;
+}
+/************************************
+=contact
+************************************/
+#contact .find-us p
+{
+    margin-bottom: 20px;
+}
+/************************************
+=media
+************************************/
+/************************************
+=xlarge
+************************************/
+@media (min-width: 1200px) 
+{
+    #mission article.box,
+    #vision article.box
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+/************************************
+=medium
+************************************/
+@media (max-width: 1199px)
+{
+    #mission article.box,
+    #vision article.box
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+/************************************
+=small
+************************************/
+@media (max-width: 991px)
+{
+    #mission article.box,
+    #vision article.box
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+/************************************
+=xsmall
+************************************/
+@media (max-width: 767px)
+{
+    #home-banner .banner-text h3
+    {
+        font-size: 18px;
+    }
+    #home-banner .banner-text h3 i
+    {
+        font-size: 10px;
+    }
+    #mission .box p
+    {
+        font-size: 16px;
+    }
+    #vision .box p
+    {
+        font-size: 16px;
+    }
+    #news #news-slider .slick-prev
+    {
+        left: -9999px;
+    }
+    #news #news-slider .slick-next
+    {
+        right: -9999px;
+    }
+    #services article > span 
+    {
+        float: none;
+    }
+}
+/************************************
+=xxsmall
+************************************/
+@media (max-width: 468px)
+{
+
+}

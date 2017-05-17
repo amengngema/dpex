@@ -1,0 +1,23 @@
+/*
+Theme Name: DPEX Worldwide
+Template: simple-bootstrap
+Author: Vladimir T. Campos
+Author URI: http://www.vladicamp.com
+Version: 1.0
+*/
+
+.vertical-nav.block
+{
+    margin-top: 15px;
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+}
+.vertical-nav .widget .widgettitle
+{
+    color: #d6151f;
+}
+.vertical-nav .widget ul li
+{
+    border-bottom: 0;
+    font-weight: bold;
+}
